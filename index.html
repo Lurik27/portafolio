@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Derik García | Portafolio TIID</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <input type="radio" name="idioma" id="lang-es" class="interruptor" checked>
+    <input type="radio" name="idioma" id="lang-en" class="interruptor">
+    <input type="radio" name="idioma" id="lang-pt" class="interruptor">
+    <input type="checkbox" id="tema" class="interruptor" aria-label="Cambiar tema">
+
+    <header class="menu">
+        <div class="contenedor fila">
+            <a href="#inicio" class="logo">Derik.portafolio</a>
+            <nav class="enlaces" id="menu" aria-label="Menú principal">
+                <div class="cabecera">
+                    <a href="#inicio" class="logo">Derik.portafolio</a>
+                    <a href="#cerrar" class="cerrar" aria-label="Cerrar menú">✕</a>
+                </div>
+                <a href="#sobre"><span lang="es">Sobre mí</span><span lang="en">About me</span><span lang="pt">Sobre mim</span></a>
+                <a href="#habilidades"><span lang="es">Habilidades</span><span lang="en">Skills</span><span lang="pt">Habilidades</span></a>
+                <a href="#proyectos"><span lang="es">Proyectos</span><span lang="en">Projects</span><span lang="pt">Projetos</span></a>
+                <a href="#certificados"><span lang="es">Certificados</span><span lang="en">Certificates</span><span lang="pt">Certificados</span></a>
+                <a href="#contacto"><span lang="es">Contacto</span><span lang="en">Contact</span><span lang="pt">Contato</span></a>
+                <div class="extras">
+                    <p><span lang="es">Idioma</span><span lang="en">Language</span><span lang="pt">Idioma</span></p>
+                    <div class="idiomas">
+                        <label for="lang-es" class="idioma">ES</label>
+                        <label for="lang-en" class="idioma">EN</label>
+                        <label for="lang-pt" class="idioma">PT</label>
+                        <label for="tema" class="idioma tema" title="Claro / Oscuro"></label>
+                    </div>
+                    <a href="#contacto" class="boton primario"><span lang="es">Contactar</span><span lang="en">Contact me</span><span lang="pt">Entrar em contato</span></a>
+                </div>
+            </nav>
+            <div class="idiomas">
+                <label for="lang-es" class="idioma">ES</label>
+                <label for="lang-en" class="idioma">EN</label>
+                <label for="lang-pt" class="idioma">PT</label>
+                <label for="tema" class="idioma tema" title="Claro / Oscuro"></label>
+            </div>
+            <a href="#menu" class="hamburguesa" aria-label="Abrir menú">☰</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero contenedor" id="inicio">
+            <div class="texto">
+                <p class="etiqueta">Derik García · <span lang="es">Desarrollo web y bases de datos</span><span lang="en">Web and database development</span><span lang="pt">Desenvolvimento web e bancos de dados</span></p>
+                <h1>
+                    <span lang="es">Estudiante de
+                    <span class="acento">Ingeniería en TIID.</span></span>
+                    <span lang="en"><span class="acento">TIID Engineering</span> student.</span>
+                    <span lang="pt">Estudante de
+                    <span class="acento">Engenharia em TIID.</span></span>
+                </h1>
+                <p class="descripcion">
+                    <span lang="es">Me gusta construir software, bases de datos y páginas web desde cero y con lógica.
+                    Aprendiendo todos los días.</span>
+                    <span lang="en">I like building software, databases and websites from scratch and with logic.
+                    Learning every day.</span>
+                    <span lang="pt">Gosto de construir software, bancos de dados e páginas web do zero e com lógica.
+                    Aprendendo todos os dias.</span>
+                </p>
+                <div class="botones">
+                    <a href="pdf/Currículum de Luis Derik García Moreno .pdf" class="boton primario" target="_blank"><span lang="es">Ver currículum</span><span lang="en">View résumé</span><span lang="pt">Ver currículo</span></a>
+                    <a href="#contacto" class="boton"><span lang="es">Contactar</span><span lang="en">Contact me</span><span lang="pt">Entrar em contato</span></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="img/yo.png" alt="Foto de Derik">
+            </div>
+        </section>
+        <section class="seccion" id="sobre">
+            <div class="banda">
+                <div class="contenedor">
+                    <h2>
+                        <span lang="es">Sobre <span class="acento">mí</span></span>
+                        <span lang="en">About <span class="acento">me</span></span>
+                        <span lang="pt">Sobre <span class="acento">mim</span></span>
+                    </h2>
+                </div>
+                <div class="contenedor sobre">
+                    <div class="historia">
+                        <h3>
+                            <span lang="es">Soy Luis Derik
+                            <span class="acento">García Moreno.</span></span>
+                            <span lang="en">I'm Luis Derik
+                            <span class="acento">García Moreno.</span></span>
+                            <span lang="pt">Sou Luis Derik
+                            <span class="acento">García Moreno.</span></span>
+                        </h3>
+                        <p>
+                            <span lang="es">Vengo del bachillerato técnico en informática (Conalep), donde hice mi primer sitio web conectado a una base de datos, y hoy sigo mi formación en la UPSIN.</span>
+                            <span lang="en">I come from a technical high school program in computer science (Conalep), where I built my first website connected to a database, and I'm now continuing my studies at UPSIN.</span>
+                            <span lang="pt">Venho do ensino médio técnico em informática (Conalep), onde fiz meu primeiro site conectado a um banco de dados, e hoje continuo minha formação na UPSIN.</span>
+                        </p>
+                        <p>
+                            <span lang="es">Mi proyecto más completo es TU-UNI, una red social universitaria con API en Java y base de datos MySQL en la nube. También he hecho prácticas de apps Android con Kotlin y SQLite, y tengo bases de redes (Cisco CCNA), Bash y PowerShell.</span>
+                            <span lang="en">My most complete project is TU-UNI, a university social network with a Java API and a cloud MySQL database. I've also built practice Android apps with Kotlin and SQLite, and I have a foundation in networking (Cisco CCNA), Bash and PowerShell.</span>
+                            <span lang="pt">Meu projeto mais completo é o TU-UNI, uma rede social universitária com API em Java e banco de dados MySQL na nuvem. Também fiz aplicativos Android de prática com Kotlin e SQLite, e tenho base em redes (Cisco CCNA), Bash e PowerShell.</span>
+                        </p>
+                        <p>
+                            <span lang="es">Me interesa la ciberseguridad y la informática forense, y por mi cuenta estoy aprendiendo SAP. Busco un lugar para realizar mis estancias profesionales en el 6.º cuatrimestre, donde pueda aportar en desarrollo de software, web o bases de datos.</span>
+                            <span lang="en">I'm interested in cybersecurity and digital forensics, and I'm learning SAP on my own. I'm looking for a place to do my professional internship in the 6th term, where I can contribute to software, web or database development.</span>
+                            <span lang="pt">Tenho interesse em cibersegurança e computação forense, e estou aprendendo SAP por conta própria. Procuro um lugar para fazer meu estágio profissional no 6º quadrimestre, onde possa contribuir em desenvolvimento de software, web ou bancos de dados.</span>
+                        </p>
+                    </div>
+                    <div class="paneles">
+                        <div class="panel">
+                            <div class="dato">
+                                <small><span lang="es">Carrera</span><span lang="en">Degree</span><span lang="pt">Curso</span></small>
+                                <p><span lang="es">Ingeniería en TIID</span><span lang="en">TIID Engineering</span><span lang="pt">Engenharia em TIID</span></p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Universidad</span><span lang="en">University</span><span lang="pt">Universidade</span></small>
+                                <p>UPSIN</p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Cuatrimestre</span><span lang="en">Term</span><span lang="pt">Quadrimestre</span></small>
+                                <p><span lang="es">4to</span><span lang="en">4th</span><span lang="pt">4º</span></p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Enfoque</span><span lang="en">Focus</span><span lang="pt">Foco</span></small>
+                                <p><span lang="es">Web y bases de datos</span><span lang="en">Web and databases</span><span lang="pt">Web e bancos de dados</span></p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="dato">
+                                <small><span lang="es">Español</span><span lang="en">Spanish</span><span lang="pt">Espanhol</span></small>
+                                <p><span lang="es">Idioma nativo</span><span lang="en">Native language</span><span lang="pt">Idioma nativo</span></p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Inglés</span><span lang="en">English</span><span lang="pt">Inglês</span></small>
+                                <p><span lang="es">Básico</span><span lang="en">Basic</span><span lang="pt">Básico</span></p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Portugués</span><span lang="en">Portuguese</span><span lang="pt">Português</span></small>
+                                <p><span lang="es">Poco</span><span lang="en">Little</span><span lang="pt">Pouco</span></p>
+                            </div>
+                            <div class="dato">
+                                <small><span lang="es">Edad</span><span lang="en">Age</span><span lang="pt">Idade</span></small>
+                                <p><span lang="es">19 años</span><span lang="en">19 years old</span><span lang="pt">19 anos</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion" id="habilidades">
+            <div class="contenedor">
+                <h2>
+                    <span lang="es">Mis <span class="acento">habilidades</span></span>
+                    <span lang="en">My <span class="acento">skills</span></span>
+                    <span lang="pt">Minhas <span class="acento">habilidades</span></span>
+                </h2>
+                <p class="subtitulo">
+                    <span lang="es">Lenguajes, bases de datos y herramientas que uso en la escuela y en mis proyectos.</span>
+                    <span lang="en">Languages, databases and tools I use at school and in my projects.</span>
+                    <span lang="pt">Linguagens, bancos de dados e ferramentas que uso na escola e nos meus projetos.</span>
+                </p>
+            <div class="rejilla tres">
+                <div class="tarjeta">
+                    <h3><span lang="es">Lenguajes</span><span lang="en">Languages</span><span lang="pt">Linguagens</span></h3>
+                    <ul class="habilidades">
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"></span><small>Java</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin"></span><small>Kotlin</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></span><small>C++</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"></span><small>C</small></li>
+                        <li><span class="ficha"><img src="https://cdn.simpleicons.org/gnubash/white" alt="Bash"></span><small>Bash</small></li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <h3><span lang="es">Web y datos</span><span lang="en">Web and data</span><span lang="pt">Web e dados</span></h3>
+                    <ul class="habilidades">
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></span><small>HTML5</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></span><small>CSS3</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></span><small>JavaScript</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Workbench"></span><small>MySQL Workbench</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" alt="Firebase"></span><small>Firebase</small></li>
+                        <li><span class="ficha"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='none' stroke='%234FC3F7' stroke-width='3' stroke-linecap='round'%3E%3Cellipse cx='24' cy='11' rx='15' ry='6'/%3E%3Cpath d='M9 11v13c0 3.3 6.7 6 15 6s15-2.7 15-6V11M9 24v13c0 3.3 6.7 6 15 6s15-2.7 15-6V24'/%3E%3C/svg%3E" alt="SQL"></span><small>SQL</small></li>
+                        <li><span class="ficha"><img src="https://cdn.simpleicons.org/railway/white" alt="Railway"></span><small>Railway</small></li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <h3><span lang="es">Herramientas</span><span lang="en">Tools</span><span lang="pt">Ferramentas</span></h3>
+                    <ul class="habilidades">
+                        <li><span class="ficha"><img src="https://cdn.simpleicons.org/github/white" alt="GitHub"></span><small>GitHub</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab"></span><small>GitLab</small></li>
+                        <li><span class="ficha"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='4' y='4' width='40' height='40' rx='6' fill='%231D6F42'/%3E%3Cpath d='M15 14l18 20M33 14L15 34' stroke='%23fff' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" alt="Excel"></span><small>Excel</small></li>
+                        <li><span class="ficha"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='4' y='4' width='40' height='40' rx='6' fill='%23185ABD'/%3E%3Cpath d='M12 15l5 18 7-14 7 14 5-18' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="Word"></span><small>Word</small></li>
+                        <li><span class="ficha"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='4' y='4' width='40' height='40' rx='6' fill='%23455A8C'/%3E%3Cpath d='M19 16l-8 8 8 8M29 16l8 8-8 8' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="C-Free"></span><small>C-Free</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio"></span><small>Visual Studio</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></span><small>VS Code</small></li>
+                        <li><span class="ficha"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></span><small>Figma</small></li>
+                        <li><span class="ficha"><img src="https://cdn.simpleicons.org/cisco/white" alt="Cisco Packet Tracer"></span><small>Cisco Packet Tracer</small></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="seccion" id="proyectos">
+            <div class="contenedor">
+                <h2>
+                    <span lang="es">Proyectos <span class="acento">destacados</span></span>
+                    <span lang="en">Featured <span class="acento">projects</span></span>
+                    <span lang="pt">Projetos <span class="acento">em destaque</span></span>
+                </h2>
+                <p class="subtitulo">
+                    <span lang="es">Algunos trabajos de la escuela y personales.</span>
+                    <span lang="en">Some school and personal work.</span>
+                    <span lang="pt">Alguns trabalhos da escola e pessoais.</span>
+                </p>
+                <div class="rejilla dos">
+                    <a class="p" href="https://tu-unii.netlify.app/" target="_blank">
+                        <article class="tarjeta proyecto">
+
+                            <div class="imagen">
+                                <img src="img/tu-uni.png" alt="Proyecto TU-UNI">
+                            </div>
+
+                            <h3>TU-UNI</h3>
+
+                            <p>
+                                <span lang="es">Una red social universitaria conectada con una base de datos SQL en la nube a través de APIs (Demo).</span>
+                                <span lang="en">A university social network connected to a cloud SQL database through APIs (Demo).</span>
+                                <span lang="pt">Uma rede social universitária conectada a um banco de dados SQL na nuvem por meio de APIs (Demo).</span>
+                            </p>
+
+                            <small class="tecnologias">
+                                SQL · HTML · CSS · JS · Java
+                            </small>
+
+                        </article>
+                    </a>
+                    <a class="p" href="https://magnificent-douhua-4bcdb7.netlify.app/" target="_blank">
+                        <article class="tarjeta proyecto">
+
+                            <div class="imagen">
+                                <img src="img/energy-hub.png" alt="Proyecto Energy-hub">
+                            </div>
+
+                            <h3>Energy-hub</h3>
+
+                            <p>
+                                <span lang="es">Un diseño visual de un e-commerce dedicado a la venta de bebidas energéticas (Demo).</span>
+                                <span lang="en">A visual design for an e-commerce site that sells energy drinks (Demo).</span>
+                                <span lang="pt">Um design visual de um e-commerce dedicado à venda de bebidas energéticas (Demo).</span>
+                            </p>
+
+                            <small class="tecnologias">
+                                HTML · CSS
+                            </small>
+
+                        </article>
+                    </a>
+                    <a class="p" href="https://webconalatte.netlify.app/html/nosotros" target="_blank">
+                        <article class="tarjeta proyecto">
+
+                            <div class="imagen">
+                                <img src="img/conalatte.png" alt="Proyecto ConaLatte">
+                            </div>
+
+                            <h3>ConaLatte</h3>
+
+                            <p>
+                                <span lang="es">Una página web de una cafetería conectada con una base de datos en Firebase, hecha en el bachillerato.</span>
+                                <span lang="en">A coffee shop website connected to a Firebase database, made in high school.</span>
+                                <span lang="pt">Um site de uma cafeteria conectado a um banco de dados no Firebase, feito no ensino médio.</span>
+                            </p>
+
+                            <small class="tecnologias">
+                                HTML · CSS · JS · Firebase
+                            </small>
+
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="seccion" id="certificados">
+            <div class="contenedor">
+                <h2>
+                    <span lang="es"><span class="acento">Certificados</span> y cursos</span>
+                    <span lang="en"><span class="acento">Certificates</span> and courses</span>
+                    <span lang="pt"><span class="acento">Certificados</span> e cursos</span>
+                </h2>
+                <p class="subtitulo">
+                    <span lang="es">Formación académica, cursos y certificaciones obtenidas.</span>
+                    <span lang="en">Academic background, courses and certifications earned.</span>
+                    <span lang="pt">Formação acadêmica, cursos e certificações obtidas.</span>
+                </p>
+                <div class="rejilla tres certificados">
+                    <article class="tarjeta certificado">
+                        <div class="certificado-icono">PDF</div>
+                        <h3><span lang="es">Introducción a las redes</span><span lang="en">Introduction to Networks</span><span lang="pt">Introdução às redes</span></h3>
+                        <p class="institucion">
+                            Cisco CCNA
+                        </p>
+                        <p class="descripcion-certificado">
+                            <span lang="es">Curso introductorio a redes, enrutamiento, DHCP, switches, routers, access points, etc.</span>
+                            <span lang="en">Introductory course on networking, routing, DHCP, switches, routers, access points, etc.</span>
+                            <span lang="pt">Curso introdutório sobre redes, roteamento, DHCP, switches, roteadores, access points, etc.</span>
+                        </p>
+                        <small class="fecha-certificado">
+                            <span lang="es">Año: 2025</span><span lang="en">Year: 2025</span><span lang="pt">Ano: 2025</span>
+                        </small>
+                        <a href="pdf/CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate_2025030387-upsin-edu-mx_86b299f9-8eb5-4b4b-9d4b-d25328fc8252 (1).pdf"
+                            class="boton primario" download>
+                            <span lang="es">Descargar certificado</span><span lang="en">Download certificate</span><span lang="pt">Baixar certificado</span>
+                        </a>
+                    </article>
+                    <article class="tarjeta certificado">
+                        <div class="certificado-icono">PDF</div>
+                        <h3><span lang="es">Profesional técnico bachiller en informática</span><span lang="en">Professional Technical Baccalaureate in Computer Science</span><span lang="pt">Técnico Profissional com Ensino Médio em Informática</span></h3>
+                        <p class="institucion">
+                            Conalep
+                        </p>
+                        <p class="descripcion-certificado">
+                            <span lang="es">Título profesional técnico bachiller en informática cursado en Conalep</span>
+                            <span lang="en">Professional technical baccalaureate degree in computer science, completed at Conalep.</span>
+                            <span lang="pt">Título de técnico profissional com ensino médio em informática, cursado no Conalep.</span>
+                        </p>
+                        <small class="fecha-certificado">
+                            <span lang="es">Año: 2025</span><span lang="en">Year: 2025</span><span lang="pt">Ano: 2025</span>
+                        </small>
+                        <a href="pdf/3250460_INFO18_220460169-0_titulo.pdf"
+                            class="boton primario" download>
+                            <span lang="es">Descargar certificado</span><span lang="en">Download certificate</span><span lang="pt">Baixar certificado</span>
+                        </a>
+                    </article>
+                    <article class="tarjeta certificado">
+                        <div class="certificado-icono">PDF</div>
+                        <h3><span lang="es">Curso Finder</span><span lang="en">Finder Course</span><span lang="pt">Curso Finder</span></h3>
+                        <p class="institucion">
+                            Aprende.org · Fundación Carlos Slim
+                        </p>
+                        <p class="descripcion-certificado">
+                            <span lang="es">Curso de Finder completado en la plataforma Aprende de la Fundación Carlos Slim.</span>
+                            <span lang="en">Finder course completed on the Aprende platform of the Carlos Slim Foundation.</span>
+                            <span lang="pt">Curso de Finder concluído na plataforma Aprende da Fundação Carlos Slim.</span>
+                        </p>
+                        <small class="fecha-certificado">
+                            <span lang="es">Año: 2025</span><span lang="en">Year: 2025</span><span lang="pt">Ano: 2025</span>
+                        </small>
+                        <a href="pdf/3fd6cfcd-a647-408e-bc0b-166623998c39_certificado.pdf"
+                            class="boton primario" download>
+                            <span lang="es">Descargar certificado</span><span lang="en">Download certificate</span><span lang="pt">Baixar certificado</span>
+                        </a>
+                    </article>         
+                </div>
+            </div>
+        </section>
+        <section class="seccion" id="contacto">
+            <div class="contenedor">
+                <div class="tarjeta contacto">
+                    <h2>
+                        <span lang="es">¿Tienes un proyecto?
+                        <span class="acento">Hablemos.</span></span>
+                        <span lang="en">Have a project?
+                        <span class="acento">Let's talk.</span></span>
+                        <span lang="pt">Tem um projeto?
+                        <span class="acento">Vamos conversar.</span></span>
+                    </h2>
+                    <p>
+                        <span lang="es">Escríbeme para colaborar o conocer más de mis proyectos.</span>
+                        <span lang="en">Write to me to collaborate or learn more about my projects.</span>
+                        <span lang="pt">Escreva para mim para colaborar ou saber mais sobre meus projetos.</span>
+                        <br><a href="mailto:l.derik.2007@gmail.com" class="acento">l.derik.2007@gmail.com</a>
+                    </p>
+                    <div class="botones centro">
+                        <a href="https://github.com/Lurik27" class="boton" target="_blank">
+                            GitHub
+                        </a>
+                        <a href="mailto:l.derik.2007@gmail.com" class="boton primario" target="_blank">
+                            <span lang="es">Correo</span><span lang="en">Email</span><span lang="pt">E-mail</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/luis-derik-garc%C3%ADa-moreno-4b9955405/" class="boton" target="_blank">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        Derik García · TIID · UPSIN
+    </footer>
+</body>
+</html>
